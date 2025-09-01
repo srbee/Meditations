@@ -35,11 +35,10 @@ h1 {text-align: center;}
   <center> 
     
     Last Edited on :
-<p id="demo"></p>
-    
-  <script>
+<p id="demo">*** </p>
+    <script>
       const date = new Date(document.lastModified);
-     document.getElementById("demo").innerHTML = date;
+     document.getElementById("demo").innerHTML = document.getElementById("demo").innerHTML+date+" *** ";
    </script>  
   </body>
 </html>
